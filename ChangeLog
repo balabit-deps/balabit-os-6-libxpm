@@ -970,9 +970,6 @@ Date:   Tue Sep 21 17:57:35 2004 +0000
     Removed inclusion of unnecessary kernel header on Linux. This may fail in
         an -ansi environment.
 
-Notes:
-    Fixes CVE-2004-0687 (integer overflows) and CVE-2004-0688 (stack overflows)
-
 commit 2773a7214e282f6f673483f5233b880505947c3f
 Author: Egbert Eich <eich@suse.de>
 Date:   Fri Apr 23 18:42:32 2004 +0000
